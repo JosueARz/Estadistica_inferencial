@@ -125,14 +125,23 @@ La varianza y me la desviación estándar nos ayudan a calcular que tan dispersa
 ![4](./reports/figures/4.png)
 
 ## Intervalos de confianza
-__________________________
 
 Esto es un par o pares de números entre los cuales se estima que estará un valor desconocido respecto de un parámetro poblacional con determinado nivel de confianza, y estos son simétricos con respecto a la media.
 
 ### Nivel de significación
-__________________________
 
 Este nivel de significación o alfa es el nivel límite para juzgar si un resultado es o no es estadisticamente significativo. Si el valor de significación es menor que el nivel de signficación, el resultado será estadisticamente significativo.
+
+## Prueba de hipótesis
+
+Las pruebas de hipótesis o de significación nos ayudan a juzgar si existe alguna diferencia significativaentre el tamaño de la muestra y el parametro general. Para realizar estas pruebas podemos seguir algunos pasos como los que muestro a continuación:
+
+- Establecer una hipótesis nula (H0) y una hipótesis alternativa (H1).
+- Seleccionar el nivel de signifiancia.
+- Seleccionar el estadistico de prueba.
+- Formular la regla de decisión.
+- interpretar los resultados y tomar una decisión.
+
 
 
 
