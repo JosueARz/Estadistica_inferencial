@@ -1,35 +1,25 @@
 Estadística inferencial
 ==============================
 
-## Diferencia entre estadística descriptiva e inferencial
-_________________________________________________________
-
-### Descriptiva
-_______________
-
-Parte de la estadística que nos ayuda adescribir y entenderlos datos, para poder explicar como se comportan los datos en el pasado y en el presente.
+## Diferencia entre estadística descriptiva e inferencial### Descriptiva
+Parte de las estadísticas que nos ayuda a describir y comprender los datos, para explicar cómo se comportan los datos en el pasado y en el presente.
 También nos ayuda a determinar:
 
 - Tendencia central de variables (Media, Mediana, Moda)
 - Variabilidad
-- Distribución de las varibles (Unimodal, Bimodal, Multimodal) 
+- Distribución de variables (Unimodal, Bimodal, Multimodal)
 
 ### Inferencial
-_______________
-
-Parte de la estadística que nos ayuda a predecir o deducircaracteristicas o resultados esperados en una población y asi validar teorias. En esta parte vemos una abstracción de una muestra para poder determinar:
+Parte de la estadística que nos ayuda a predecir o deducir características o resultados esperados en una población y así validar teorías. En esta parte vemos una abstracción de una muestra para determinar:
 
 - Muestreo
-- Intervalos de confianza
+- intervalos de confianza
 - Validación de hipótesis
 - Evitar sesgos
 
-La inferencia estadística nos permite obtener conclusiones que se obtienen sobre los parametros de una población de datos, ademas, estudiamps el grado de fiabilidd que tenemos de nuestros modelos.
-
+La inferencia estadística nos permite obtener conclusiones sobre los parámetros de una población de datos, además, estudiamos el grado de fiabilidad que tenemos de nuestros modelos.
 ## Estadística inferencial en data science y machine learning
-__________________________
-
-La estadística inferencial la usamos tanto en el análisis como en en los modelos predictivos, ya que esta os servirá para:
+La estadística inferencial la usamos tanto en el análisis como en los modelos predictivos, ya que esta os servirá para:
 
 - Entender la distribución de nuestra información.
 - Creación y validación de hipótesis.
@@ -37,120 +27,96 @@ La estadística inferencial la usamos tanto en el análisis como en en los model
 - Elección adecuada de los modelos predictivos sugún los datos.
 
 ## Principales estadisticos
-___________________________
-
-
 ### Experimentos
-________________
+Proceso en el que un fenómeno se puede realizar infinitamente y tiene un conjunto bien definido de posibles resultados, también conocido como "espacio muestral", estos experimentos pueden tener diferentes resultados:
 
-Proceso en el cual un fenomeno se puede realizar infinitamente y tiene un conjunto bien definido de posibles resultados, también es conocido como `espacio muestral`, estos experimentos pueden tener difertentes resultados:
-
-- Aleatorio: si tiene más de un resultado posible.
-- Determinista: si solo existe un posible valor.
+- Random: si tiene más de un resultado posible.
+- Determinista: si solo hay un valor posible.
 
 ### Población y muestra
-________________________
+La población es el conjunto de todos los datos sin importar sus condiciones, mientras que la muestra es un subconjunto de datos que pertenece a la población, y esta tiene algunas condiciones:
 
-La población es el conjunto de todos los datos independientemente de sus condiciones, mientras que la muestra es un subconjunto de datos que pertenecen a la población, y esta cuenta con agunas condiciones:
-
-- Número suficiente de registros para ser estadisticamente significativo.
-- Representación no sesgada de la información total.
-
+- Número suficiente de registros para ser estadísticamente significativo.
+- Representación imparcial de la información total.
 
 ### Eventos
-___________
-
 Son cada uno de los posibles resultados derivados de un experimento.
-
 ### Variable
-____________
-
-Son cada uno de los atributos o caracteristicas que tenemos de las muestras, existen diferentes tipos:
+Son cada uno de los atributos o características que tenemos de las muestras, existen diferentes tipos:
 
 - Cualitativos: atributos no medibles.
--Cuantitativos: atributos medibles, estos son representados por números y existen dos tipos:
+-Cuantitativos: atributos medibles, estos se representan mediante números y existen dos tipos:
     
-    - Discretos (son numeros enteros o son aquillos que tienen valores finitos entre dos datos)
-    - Continuos (son números decimales o que pueden tomar cualquier valor entre dos datos)
-
+       - Discretos (son enteros o son aquillos que tienen valores finitos entre dos datos)
+       - Continuos (son números decimales o pueden tomar cualquier valor entre dos datos)
 ### Probabilidad
 
-Mide que tan posible es qué ocurra un evento determinado bajo ciertas condiciones, el análisis de los eventos probabilisticos se denomina estadística. Dentro de la probabilidad existe una logia llamada probabilidad condicional, esta es; la posibilidad de que ocurra un evento como consecuencia de otro evento pasado, esta está definida como:
+Mide que tan posible es prevenir un determinado evento bajo ciertas condiciones, el análisis de eventos probabilísticos se llama estadística. Dentro de la probabilidad existe una logia llamada probabilidad condicional, esto es; La posibilidad de que un evento ocurra como consecuencia de otro evento pasado se define como:
 
 ![1](./reports/figures/1.png)
 ![2](./reports/figures/2.png)
 
 ### Distribución normal
-__________________
+La mayoría de los factores en el mundo se rigen por una `distribución normal`, esta tiene algunas características especiales:
 
-La mayoria de los factores del mundo se rigen bajo una `distribución normal`, esta tiene algunas caracteristicas especiales:
-
-- Distribución normal = Distribución de Gauss
+- Distribución normal = Distribución gaussiana
 - Moda = media = mediana
-- Es simétrica
+- es simétrico
 - tiene forma de campana
 
-la mayoria de los datos estan concentrados en el centro, y a los costados estan los datos atipicos y estaria representada por un gráfico como el siguiente.
+La mayor parte de los datos se concentran en el centro, y a los lados están los datos atípicos y estarían representados por un gráfico como el siguiente.
 
 ![3](./reports/figures/3.png)
 
 ## Teorema del límite central
-_____________________________
-
-La estadistica establece que, dada una muestra aleatoria suficientemente grande de la población la distribución de las medias seguirá una distribución normal.
+Las estadísticas establecen que, dada una muestra aleatoria suficientemente grande de la población, la distribución de medias seguirá una distribución normal.
 
 ## Muestreo
-____________
+Es una técnica que nos ayuda a seleccionar una muestra, la cual se obtiene de una población estadística, y esta selección debe ser aleatoria y se espera que sus propiedades sean extrapolables a la población. Existen algunos tipos de fotografías, aquí vamos a ver las principales:
 
-Es una técnica que nos ayuda a la selección de una muestra, la cual se obtiene a partir de una población estadística, y esta selección debe de ser aleatoria y se espera que sus propiedades sean extrapolables a la población. Existen algunos tipos de muestreo, aqui vamos a ver los principales:
-
-- Aleatorio simple: Método de selección de ciertas unidades sacadas de una población de tal manera que cada una de las muestras tiene la misma probabilidad de der elegida.
-- Sistemático: Este método selecciona ciertas unidades al azay y posterior a ello se eligen el resto de muestras siguiendo intervalos regulares.
--Estratificados:  Este método selecciona ciertas unidades por segmentos exclusivos y homogéneos y posterior a esto se elige una muestra aleatoria simple de cada segmento.
-
+- Aleatorio Simple: Método de selección de determinadas unidades extraídas de una población de forma que cada una de las muestras tenga la misma probabilidad de ser elegida.
+- Sistemático: Este método selecciona ciertas unidades al azar y luego el resto de las muestras se eligen siguiendo intervalos regulares.
+-Estratificado: Este método selecciona ciertas unidades por segmentos exclusivos y homogéneos y luego se elige una muestra aleatoria simple de cada segmento.
 ## Media muestral
 
 Debemos recordar algunos conceptos básicos como media, moda y mediana:
 
-- Media: Suma de los datos dividida por la cantidad de los datos.
-- Moda: El dato que más se repite.
-- Mediana: Es el datoq ue esta en el centro de todos.
+- Medias: Suma de los datos dividida por la cantidad de datos.
+- Moda: Los datos que más se repiten.
+- Mediana: Es el dato que está en el centro de todos.
 
-La media muestral es la conocida media aritmeticas y esta se obtine al sumar un conjunto de valores cuantitativos y dividirlo por el número total de los elementos sumados. La media muestral es diferente a la media poblacional.
+La media muestral es la conocida media aritmética y se obtiene sumando un conjunto de valores cuantitativos y dividiéndolo por el número total de elementos sumados. La media muestral es diferente de la media poblacional.
 
 ## Varianza y desviación estándar muestral y poblacional
 
-La varianza y me la desviación estándar nos ayudan a calcular que tan dispersa esta una población o muestra, es decir, que tan separadas estan de la media, recordemos que la desviación estándar es la raíz cuadrada de la varianza. Para calcular estas propiedades estadisticas tanto pobalacional como muestral lo podemos hacer con las siguientes ecuaciones.
+La varianza y la desviación estándar nos ayudan a calcular qué tan dispersa está una población o muestra, es decir, qué tan lejos están de la media, recuerda que la desviación estándar es la raíz cuadrada de la varianza. Para calcular estas propiedades estadísticas, tanto poblacionales como muestrales, podemos hacerlo con las siguientes ecuaciones.
 
 ![4](./reports/figures/4.png)
 
 ## Intervalos de confianza
 
-Esto es un par o pares de números entre los cuales se estima que estará un valor desconocido respecto de un parámetro poblacional con determinado nivel de confianza, y estos son simétricos con respecto a la media.
+Este es un par o pares de números entre los cuales se estima que existirá un valor desconocido respecto a un parámetro poblacional con cierto nivel de confianza, y estos son simétricos respecto a las medias.
 
 ### Nivel de significación
 
-Este nivel de significación o alfa es el nivel límite para juzgar si un resultado es o no es estadisticamente significativo. Si el valor de significación es menor que el nivel de signficación, el resultado será estadisticamente significativo.
-
+Este nivel de significación o alfa es el nivel límite para juzgar si un resultado es o no estadísticamente significativo. Si el valor de significancia es menor que el nivel de significación, el resultado será estadísticamente significativo.
 ## Prueba de hipótesis
+Hypothesis or significance tests help us judge if there is any significant difference between the sample size and the overall parameter. To perform these tests we can follow some steps such as the ones shown below:
 
-Las pruebas de hipótesis o de significación nos ayudan a juzgar si existe alguna diferencia significativaentre el tamaño de la muestra y el parametro general. Para realizar estas pruebas podemos seguir algunos pasos como los que muestro a continuación:
-
-- Establecer una hipótesis nula (H0) y una hipótesis alternativa (H1).
-- Seleccionar el nivel de signifiancia.
-- Seleccionar el estadistico de prueba.
-- Formular la regla de decisión.
-- interpretar los resultados y tomar una decisión.
+- Establish a null hypothesis (H0) and an alternative hypothesis (H1).
+- Select the level of significance.
+- Select the test statistic.
+- Formulate the decision rule.
+- interpret the results and make a decision.
 
 ## Tipos de pruebas de hipótesis
 
-- Distribución t de Student: Se usa para estimar una media poblacional normalmente distribuida a partir de una muestra pequeña que sigue una distribución normal y de la que desconocemos la desviación estándar.
-- Coeficiente de Pearson: Se usa para medir la dependencia lineal (correlación) entre dos variables aleatorias cuantitativas.
-- Análisis de la varianza (ANOVA): Se usa para comparar varianzas entre las medias (o el promedio) de diferentes grupos.
+- Distribución t de Student: Se utiliza para estimar una media poblacional distribuida normalmente a partir de una pequeña muestra que sigue una distribución normal y cuya desviación estándar se desconoce.
+- Coeficiente de Pearson: Se utiliza para medir la dependencia lineal (correlación) entre dos variables aleatorias cuantitativas.
+- Análisis de varianza (ANOVA): Se utiliza para comparar varianzas entre las medias (o la media) de diferentes grupos.
 
 ## Tipos de errores
-
-Las conclusiones a las que llegamos se basan en una muestra, por lo que podemos equivocarnos, para esto podemos separar las decisiones en correctas e incorresctas como en la siguiente tabla:
+Las conclusiones a las que llegamos están basadas en una muestra, por lo que podemos cometer errores, para ello podemos separar las decisiones en correctas e incorrectas como en la siguiente tabla:
 
 | |H0 Verdadera|H0 Falsa|
 |-----------|----------|------------|
@@ -160,7 +126,15 @@ Las conclusiones a las que llegamos se basan en una muestra, por lo que podemos 
 
 ## Bootstrapping
 
-Este metodo se usa cuando queremos sacar una muestra de una población, pero la población es pequeña. Esto es, un método de remuestreo de datos de una muestra aleatoria. Se usa para hallar una aproximación a la distribución de la variable analizada. Este metodo nos ayuda a no sesgar los resultados, esto se puede usar en machine learning para evitar el overfitting.
+Este método se utiliza cuando queremos extraer una muestra de una población, pero la población es pequeña. Es decir, un método de remuestreo de datos de una muestra aleatoria. Se utiliza para encontrar una aproximación a la distribución de la variable analizada. Este método nos ayuda a no sesgar los resultados, esto se puede utilizar en el aprendizaje automático para evitar el sobreajuste.
+
+## Validación cruzada
+Es una técnica utilizada para evaluar los resultados de un análisis estadístico y así poder garantizar la independencia de las particiones de datos de entrenamiento y prueba.
+Proceso:
+
+- Dividir datos aleatoriamente en k grupos de tamaño similar.
+- Los grupos k-1 se usan para entrenar el modelo y uno de ellos se usa para validarlo.
+- El proceso se repite k veces usando un grupo diferente como validación para cada iteración.
 
 
 
