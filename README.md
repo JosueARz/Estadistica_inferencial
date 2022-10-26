@@ -142,6 +142,21 @@ Las pruebas de hipótesis o de significación nos ayudan a juzgar si existe algu
 - Formular la regla de decisión.
 - interpretar los resultados y tomar una decisión.
 
+## Tipos de pruebas de hipótesis
+
+- Distribución t de Student: Se usa para estimar una media poblacional normalmente distribuida a partir de una muestra pequeña que sigue una distribución normal y de la que desconocemos la desviación estándar.
+- Coeficiente de Pearson: Se usa para medir la dependencia lineal (correlación) entre dos variables aleatorias cuantitativas.
+- Análisis de la varianza (ANOVA): Se usa para comparar varianzas entre las medias (o el promedio) de diferentes grupos.
+
+## Tipos de errores
+
+Las conclusiones a las que llegamos se basan en una muestra, por lo que podemos equivocarnos, para esto podemos separar las decisiones en correctas e incorresctas como en la siguiente tabla:
+
+| |H0 Verdadera|H0 Falsa|
+|-----------|----------|------------|
+|Rechazar H0|Error tipo I P(Error tipo I)=$\alpha$| Decisión correcta|
+|No rechazar H0|Decisión correcta| Error tipo II P(Error tipo II) = $\beta$|
+
 
 
 
