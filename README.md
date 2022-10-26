@@ -158,6 +158,11 @@ Las conclusiones a las que llegamos se basan en una muestra, por lo que podemos 
 |No rechazar H0|Decisión correcta| Error tipo II P(Error tipo II) = $\beta$|
 
 
+## Bootstrapping
+
+Este metodo se usa cuando queremos sacar una muestra de una población, pero la población es pequeña. Esto es, un método de remuestreo de datos de una muestra aleatoria. Se usa para hallar una aproximación a la distribución de la variable analizada. Este metodo nos ayuda a no sesgar los resultados, esto se puede usar en machine learning para evitar el overfitting.
+
+
 
 
 Project Organization
