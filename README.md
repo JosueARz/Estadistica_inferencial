@@ -154,7 +154,7 @@ Las conclusiones a las que llegamos se basan en una muestra, por lo que podemos 
 
 | |H0 Verdadera|H0 Falsa|
 |-----------|----------|------------|
-|Rechazar H0|Error tipo I P(Error tipo I)=$\alpha$| Decisión correcta|
+|Rechazar H0|Error tipo I P(Error tipo I)= $\alpha$| Decisión correcta|
 |No rechazar H0|Decisión correcta| Error tipo II P(Error tipo II) = $\beta$|
 
 
